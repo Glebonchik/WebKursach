@@ -1,0 +1,553 @@
+a {
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto";
+  font-size: 14px;
+}
+
+button {
+  padding: 0 0;
+}
+
+/* Header content */
+.header-top {
+  width: 85%;
+  height: 20%;
+}
+
+.nav-conteiner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-conteiner > nav > ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-conteiner > nav > ul > li {
+  background-color: black;
+  margin-right: 0.5em;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.nav-conteiner > nav > ul > li > a {
+  padding: 10px;
+  display: block;
+}
+
+.header-btn > a {
+  color: white;
+}
+.header-btn > a:hover {
+  background-color: white;
+  color: black;
+}
+
+/* Page content */
+.page {
+  display: block;
+  margin-left: 70px;
+  margin-right: 70px;
+  justify-content: center;
+}
+
+.page-header {
+  display: flex;
+  height: 20%;
+  width: 100%;
+}
+
+/* Left-header content */
+.page-header-link {
+  width: 15%;
+}
+
+.header-left > div > img {
+  width: 100%;
+  mix-blend-mode: multiply;
+}
+
+/* header-bottom content */
+
+.header-bottom-search {
+  margin-right: 1em;
+  display: flex;
+  align-items: center;
+  margin-top: 1em;
+}
+
+.goods-srch {
+  width: 300px;
+  padding: 10px;
+  margin-right: 1em;
+  border: none;
+  box-shadow: 1px 1px 10px 2px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  outline: none;
+}
+
+.srch-link {
+  padding: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: black;
+  border-radius: 5px;
+  color: white;
+}
+
+.srch-link:hover {
+  color: black;
+  background-color: white;
+}
+
+/* Header-bottom-btns content */
+
+.header-bottom {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1em;
+}
+
+.header-bottom-menu {
+  display: flex;
+  /* margin-left: 200px; */
+}
+
+#checkbox_toggle {
+  display: none;
+}
+
+.humburger {
+  display: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.hamburger-line {
+  background-color: black;
+  display: block;
+  height: 2px;
+  position: relative;
+  width: 24px;
+}
+
+.hamburger-line::before,
+.hamburger-line::after {
+  background-color: black;
+  content: "";
+  display: block;
+  position: absolute;
+  transition: all 0.3s ease;
+  width: 100%;
+  height: 100%;
+}
+
+.hamburger-line::before {
+  top: 7px;
+}
+
+.hamburger-line::after {
+  bottom: 7px;
+}
+
+.header-bottom-menu-humburger {
+  display: flex;
+}
+
+.header-bottom-menu-btns {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2px;
+  height: 100%;
+  border-radius: 10px;
+  margin-right: 10px;
+  width: 75px;
+}
+
+.header-bottom-menu-btns-text {
+  color: black;
+  text-decoration: none;
+}
+
+.header-bottom-menu-btns:hover {
+  box-shadow: 1px 1px 10px 2px rgba(0, 0, 0, 0.2);
+  border: 1px solid black;
+}
+
+/* Page-body-content */
+
+.page-body-text-back-to-landing {
+  color: grey;
+}
+
+.page-body-text-cart {
+  font-size: 40px;
+  padding-bottom: 30px;
+}
+
+.page-body-count {
+  display: flex;
+}
+
+.page-body-sumup {
+  width: 50%;
+}
+
+.page-body-sumup-text {
+  font-size: 22px;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+
+.sumup {
+  border: none;
+  font-size: 32px;
+  color: black;
+  width: 100%;
+}
+
+.page-body-sumup-offer-btn {
+  padding-top: 30px;
+}
+
+.offer-btn {
+  padding: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: black;
+  font-size: 18px;
+  border-radius: 10px;
+  color: white;
+}
+
+.offer-btn:hover {
+  color: black;
+  background-color: white;
+}
+
+.clear-btn {
+  padding: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: 2px solid black;
+  background-color: white;
+  font-size: 18px;
+  border-radius: 10px;
+  color: black;
+}
+
+.clear-btn:hover {
+  color: white;
+  background-color: black;
+}
+
+/*cart good*/
+
+.page-body-card {
+  display: flex;
+  padding-bottom: 100px;
+}
+.page-body-card-img {
+  padding-right: 30px;
+  width: 8%;
+}
+
+.page-body-card-img > img {
+  width: 100%;
+  mix-blend-mode: multiply;
+}
+
+.page-body-card-name {
+  font-size: 25px;
+  width: 50%;
+  padding-right: 50px;
+}
+
+.page-body-card-name > a {
+  color: black;
+}
+
+.page-body-card-name > a:hover {
+  color: grey;
+}
+
+.page-body-card-quantity {
+  padding-right: 40px;
+}
+
+.page-body-card-quantity > input {
+  border: none;
+  text-align: center;
+  width: 40px;
+  font-size: 32px;
+  color: black;
+}
+
+.mns-btn,
+.pls-btn {
+  width: 30px;
+  height: 30px;
+  border: white;
+  background-color: white;
+  cursor: pointer;
+}
+
+.page-body-card-price {
+  font-size: 30px;
+  text-align: right;
+  width: 160px;
+}
+
+/* Footer */
+
+.footer {
+  width: 100%;
+  margin-top: 20px;
+  background-color: black;
+  color: white;
+  display: block;
+}
+
+.footer-links {
+  display: flex;
+}
+
+.footer-contacts {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 15px;
+  width: 30%;
+}
+
+.footer-contacts-text {
+  font-size: 36px;
+}
+
+.footer-contacts-shops-adress {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 18px;
+}
+
+.footer-contacts-shops-adress > a {
+  color: white;
+}
+
+.footer-contacts-pn {
+  padding-top: 20px;
+  display: flex;
+  padding-bottom: 20px;
+  font-size: 16px;
+}
+
+.footer-contacts-pn-phone {
+  padding-right: 20px;
+  font-size: 18px;
+}
+
+.footer-contacts-askq {
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+.askquestion {
+  padding: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: white;
+  border-radius: 5px;
+  color: black;
+}
+
+.askquestion:hover {
+  background-color: black;
+  color: white;
+}
+
+.footer-for-customer {
+  margin-left: 20px;
+  margin-top: 15px;
+  width: 25%;
+  font-size: 18px;
+}
+
+.footer-for-customer-elemnt {
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.footer-for-customer-elemnt > a {
+  color: white;
+}
+
+.footer-services {
+  margin-left: 20px;
+  margin-top: 15px;
+  width: 25%;
+  font-size: 18px;
+}
+
+.footer-services-elemnt {
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.footer-services-elemnt > a {
+  color: white;
+}
+
+.footer-chush {
+  text-align: center;
+}
+
+/* Адаптивность */
+
+@media (max-width: 1600px) {
+  .page-body-card {
+    padding-bottom: 80px;
+  }
+  .page-body-card-img {
+    width: 8%;
+  }
+
+  .page-body-card-img > img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 1280px) {
+  .offer-btn {
+    padding: 5px;
+    font-size: 16px;
+  }
+  .clear-btn {
+    padding: 5px;
+    font-size: 16px;
+  }
+  .page-body-card-img > img {
+    height: 70px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .page-body-card-name {
+    font-size: 24px;
+    width: 35%;
+  }
+  .page-body-card-price {
+    font-size: 24px;
+  }
+  .page-body-card-img > img {
+    height: 60px;
+  }
+  .sumup {
+    font-size: 24px;
+  }
+  .page-body-sumup {
+    width: 85%;
+  }
+  .offer-btn {
+    padding: 5px;
+    font-size: 16px;
+  }
+  .clear-btn {
+    padding: 5px;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  .body-left-menu-for-you {
+    display: block;
+  }
+
+  .header-bottom-menu {
+    padding-top: 10px;
+    padding-right: 10px;
+  }
+
+  .header-bottom-menu-humburger {
+    max-height: 0;
+    overflow: hidden;
+    position: fixed;
+    text-align: center;
+    right: 0;
+    left: 0;
+    margin-top: 50px;
+    background-color: white;
+  }
+
+  .header-bottom-menu-btns {
+    display: block;
+    padding: 15px;
+  }
+
+  #checkbox_toggle:checked ~ .header-bottom-menu-humburger {
+    display: block;
+    max-height: 100%;
+    max-width: 25%;
+    margin-left: 75%;
+  }
+
+  .humburger {
+    display: block;
+    padding: 20px 0;
+  }
+
+  .body-left-menu {
+    position: fixed;
+    left: -190px;
+    background-color: white;
+    border-right: 20px solid black;
+    border-radius: 20px;
+    width: 25%;
+  }
+
+  .body-left-menu:hover {
+    left: 0;
+    border-right: 7px solid black;
+    transition: all 0.1s ease;
+  }
+
+  .page-body-count {
+    display: block;
+  }
+  .page-body-card-quantity {
+    padding: 0;
+  }
+
+  .page-body-card-img {
+    padding: 5px;
+    width: 10%;
+  }
+
+  .page-body-sumup {
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+
+  .combine-text-and-input {
+    width: 35%;
+  }
+  .page-body-sumup-offer-btn {
+    padding: 0;
+  }
+
+  .page-body-sumup-offer-btn {
+    padding-left: 20px;
+  }
+}

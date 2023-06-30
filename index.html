@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>3Head</title>
+    <link rel="stylesheet" href="source/styles/indexcss.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="page">
+      <div class="page-header">
+        <a href="#" class="page-header-link">
+          <div class="header-left">
+            <div>
+              <img
+                src="https://assets.turbologo.ru/blog/ru/2018/12/18170458/no-logo.png"
+                alt=""
+              />
+            </div></div
+        ></a>
+
+        <div class="header-top">
+          <div class="nav-conteiner">
+            <nav>
+              <ul>
+                <li class="header-btn"><a href="#">Магазины</a></li>
+                <li class="header-btn"><a href="#">Доставка</a></li>
+              </ul>
+            </nav>
+            <nav>
+              <ul>
+                <li class="header-btn"><a href="#">Акции</a></li>
+                <li class="header-btn"><a href="#">Кредит</a></li>
+                <li class="header-btn"><a href="#">Бонусы</a></li>
+                <li class="header-btn"><a href="about.html">О нас</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="header-bottom">
+            <div class="header-bottom-search">
+              <div class="srch-line">
+                <input
+                  class="goods-srch"
+                  type="text"
+                  placeholder="Поиск по товарам"
+                />
+              </div>
+              <div>
+                <a class="srch-link" href="">Поиск</a>
+              </div>
+            </div>
+            <div class="header-bottom-menu">
+              <input type="checkbox" id="checkbox_toggle" />
+              <label for="checkbox_toggle" class="humburger"
+                ><span class="hamburger-line"></span
+              ></label>
+
+              <div class="header-bottom-menu-humburger">
+                <a class="header-bottom-menu-btns" href="#">
+                  <img
+                    src="source/images/compare.svg"
+                    alt=""
+                    width="22"
+                    height="22"
+                  />
+                  <div class="header-bottom-menu-btns-text">Сравнение</div>
+                </a>
+                <a class="header-bottom-menu-btns" href="#">
+                  <img
+                    src="source/images/favorite.svg"
+                    alt=""
+                    width="22"
+                    height="22"
+                  />
+                  <div class="header-bottom-menu-btns-text">Избранное</div>
+                </a>
+                <a class="header-bottom-menu-btns" href="cart.html">
+                  <img
+                    src="source/images/shopping-cart.svg"
+                    alt=""
+                    width="22"
+                    height="22"
+                  />
+                  <div class="header-bottom-menu-btns-text">Корзина</div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="page-body">
+        <div class="body-left-menu">
+          <input type="checkbox" id="checkbox_for_you" />
+          <label for="checkbox_for_you" class="for-you-btn"> Расширить</label>
+          <div class="body-left-menu-for-you">
+            Для Вас
+            <div class="body-left-menu-for-you-ol">
+              <ol class="body-left-menu-for-ol">
+                <li class="header-left-text">
+                  <a href="#">Бытовая техника</a>
+                </li>
+                <li class="header-left-text">
+                  <a href="#">Сетевое оборудование</a>
+                </li>
+                <li class="header-left-text"><a href="#">Телевизоры</a></li>
+                <li class="header-left-text">
+                  <a href="laptop.html">Ноутбуки</a>
+                </li>
+                <li class="header-left-text"><a href="#">Смартфоны</a></li>
+                <li class="header-left-text"><a href="#">Консоли</a></li>
+              </ol>
+              <ol class="body-left-menu-for-ol">
+                <li class="header-left-text">
+                  <a href="#">Климатическая техника</a>
+                </li>
+                <li class="header-left-text">
+                  <a href="#">Игровые товары</a>
+                </li>
+                <li class="header-left-text"><a href="#">Умный дом</a></li>
+                <li class="header-left-text"><a href="#">Смарт-часы</a></li>
+                <li class="header-left-text">
+                  <a href="#">Оргтехника</a>
+                </li>
+                <li class="header-left-text"><a href="#">Автотовары</a></li>
+              </ol>
+            </div>
+
+            Все для вашего ПК
+            <ol class="body-left-menu-for-ol">
+              <li class="header-left-text"><a href="#">Процессоры</a></li>
+              <li class="header-left-text"><a href="#">Видеокарты</a></li>
+              <li class="header-left-text"><a href="#">Мониторы</a></li>
+              <li class="header-left-text"><a href="#">Наушники</a></li>
+              <li class="header-left-text">
+                <a href="#">Материнские платы</a>
+              </li>
+              <li class="header-left-text">
+                <a href="#">Оперативная память</a>
+              </li>
+              <li class="header-left-text">
+                <a href="#">Системы охлаждения</a>
+              </li>
+            </ol>
+          </div>
+        </div>
+        <div class="body-center-goods">
+          <div class="body-popular-goods-text">Популярные товары</div>
+          <div class="body-popular-goods-catalog">
+            <a href="laptop.html" class="body-popular-goods-card">
+              <img
+                src="source/images/laptop.png"
+                alt="laptop"
+                class="body-popular-goods-card-img"
+                width="75%"
+                height="75%"
+              />
+              <div class="body-popular-goods-card-text">
+                <span>Ноутбуки</span>
+              </div>
+            </a>
+            <a href="#" class="body-popular-goods-card">
+              <img
+                src="source/images/smartphone.png"
+                alt="laptop"
+                class="body-popular-goods-card-img"
+                width="75%"
+                height="75%"
+              />
+              <div class="body-popular-goods-card-text">
+                <span>Смартфоны</span>
+              </div>
+            </a>
+            <a href="#" class="body-popular-goods-card">
+              <img
+                src="source/images/monitor.png"
+                alt="laptop"
+                class="body-popular-goods-card-img"
+                width="75%"
+                height="75%"
+              />
+              <div class="body-popular-goods-card-text">
+                <span>Мониторы</span>
+              </div>
+            </a>
+            <a href="#" class="body-popular-goods-card">
+              <img
+                src="source/images/washing_machine.jpg"
+                alt="laptop"
+                class="body-popular-goods-card-img"
+                width="75%"
+                height="75%"
+              />
+              <div class="body-popular-goods-card-text">
+                <span>Стиральные машины</span>
+              </div>
+            </a>
+            <a href="#" class="body-popular-goods-card">
+              <img
+                src="source/images/cpu.png"
+                alt="laptop"
+                class="body-popular-goods-card-img"
+                width="75%"
+                height="75%"
+              />
+              <div class="body-popular-goods-card-text">
+                <span>Процессоры</span>
+              </div>
+            </a>
+            <a href="#" class="body-popular-goods-card">
+              <img
+                src="source/images/gpu.png"
+                alt="laptop"
+                class="body-popular-goods-card-img"
+                width="75%"
+                height="75%"
+              />
+              <div class="body-popular-goods-card-text">
+                <span>Видеокарты</span>
+              </div>
+            </a>
+          </div>
+          <div class="body-center-PCBuild">
+            Готовые сборки ПК
+            <div class="body-center-PCBuild-catalog">
+              <a href="#" class="body-center-PCBuild-card">
+                <img
+                  src="source/images/gaming-controller.svg"
+                  width="80%"
+                  height="80%"
+                  alt=""
+                />
+                Игровые
+              </a>
+              <a href="#" class="body-center-PCBuild-card">
+                <img
+                  src="source/images/office.svg"
+                  width="80%"
+                  height="80%"
+                  alt=""
+                />
+                Офисные
+              </a>
+              <a href="#" class="body-center-PCBuild-card">
+                <img
+                  src="source/images/design.svg"
+                  width="80%"
+                  height="80%"
+                  alt=""
+                />
+                Для дизайна
+              </a>
+            </div>
+            Создать свою сборку<br />
+            <div class="body-center-PCBuild-h3">
+              Просто и без проблем с совместимостью
+            </div>
+            <div class="body-center-PCBuild-ownbiuld">
+              <a href="#" class="body-center-PCBuild-ownbiuld-card">
+                <img
+                  src="source/images/mechanic-tools.svg"
+                  alt=""
+                  width="80%"
+                  height="80%"
+                />
+                <span>Создать свою сборку</span>
+              </a>
+            </div>
+          </div>
+          <div class="body-center-popularbrends">
+            Популярные бренды
+            <div class="body-center-popularbrends-card">
+              <a href="#" class="body-center-popularbrends-logo">
+                <img
+                  src="source/images/xi.png"
+                  width="100%"
+                  height="100%"
+                  alt=""
+                />
+              </a>
+              <a href="#" class="body-center-popularbrends-logo">
+                <img
+                  src="source/images/apple.png"
+                  width="100%"
+                  height="100%"
+                  alt=""
+                />
+              </a>
+              <a href="#" class="body-center-popularbrends-logo">
+                <img
+                  src="source/images/Honor-Symbole.png"
+                  width="100%"
+                  height="100%"
+                  alt=""
+                />
+              </a>
+              <a href="#" class="body-center-popularbrends-logo">
+                <img
+                  src="source/images/huawei.png"
+                  width="100%"
+                  height="100%"
+                  alt=""
+                />
+              </a>
+              <a href="#" class="body-center-popularbrends-logo">
+                <img
+                  src="source/images/asus.png"
+                  width="100%"
+                  height="100%"
+                  alt=""
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <div class="footer-links">
+          <div class="footer-contacts">
+            <div class="footer-contacts-text">Контакты</div>
+            <div class="footer-contacts-shops-adress">
+              <a href="#">Адреса магазинов</a>
+            </div>
+            <div class="footer-contacts-pn">
+              <div class="footer-contacts-pn-phone">+7 (495) 999-99-99</div>
+              <div class="footer-contacts-pn-city">Москва</div>
+            </div>
+            <div class="footer-contacts-askq">
+              <a href="#" class="askquestion">Задать вопрос</a>
+            </div>
+          </div>
+          <div class="footer-for-customer">
+            <div class="footer-for-customer-elemnt">
+              <a href="about.html">Информация</a>
+            </div>
+            <div class="footer-for-customer-elemnt">
+              <a href="#">Доставка</a>
+            </div>
+            <div class="footer-for-customer-elemnt">
+              <a href="#">Гарантия</a>
+            </div>
+            <div class="footer-for-customer-elemnt">
+              <a href="#">Кредит и рассрочка</a>
+            </div>
+          </div>
+          <div class="footer-services">
+            <div class="footer-services-elemnt">
+              <a href="#">Сервисные центры</a>
+            </div>
+            <div class="footer-services-elemnt">
+              <a href="#">Услуги</a>
+            </div>
+            <div class="footer-services-elemnt">
+              <a href="#">Форум</a>
+            </div>
+            <div class="footer-services-elemnt">
+              <a href="#">Обзоры</a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-chush">
+          © 2023 Компания 3Head. Администрация Сайта не несет ответственности за
+          размещаемые Пользователями материалы (в т.ч. информацию и
+          изображения), их содержание и качество.
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
